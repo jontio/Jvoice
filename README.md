@@ -17,7 +17,9 @@ v_vec=sigmoid(W2*h_vec+b2_vec);
 
 It recognizes two words spoken by me, "on" and "off".
 
-Click this [Video] to see it in action.
+Click the [Video] to see it in action.
+
+[![Video in action](http://img.youtube.com/vi/w0d0RuX9Eyk/0.jpg)](https://www.youtube.com/embed/w0d0RuX9Eyk)
 
 ## Training
 
