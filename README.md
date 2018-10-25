@@ -2,13 +2,9 @@
 
 This is my first neural network. I wanted it to be as simple as possible but still wanted to do something. So I went for the most simple [feedforward neural network]. Wikipedia does not make this clear but all it is is two lines...
 
-   $$
-   \mathbf{h}=\mathcal{f}\left(\mathbf{W}^{(1)}\mathbf{x}+\mathbf{b}^{(1)}\right)\\
-   \mathbf{y}= f \left(\mathbf{W}^{(2)}\mathbf{h}+\mathbf{b}^{(2)}\right)\\
-   \text{The neural network}
-   $$
+![..image of network..](assets/nn.png)
 
-The bold font signifies these matrices. The superscript in brackets is to signify both the $\mathbf{W}$s and $\mathbf{b}$s are different. Lower case bold fonts are vectors while uppercase bold fonts are matrices. The $f$ is called the sigmoid function and make sure is the outputs are between zero and one.
+The bold font signifies these matrices. The superscript in brackets is to signify both the **W**s and **b**s are different. Lower case bold fonts are vectors while uppercase bold fonts are matrices. The f is called the sigmoid function and make sure is the outputs are between zero and one.
 
 For this application I used [Armadillo] Which takes care of all the vectors and matrices. That means in this C++ application it is still just two lines...
 
@@ -22,7 +18,7 @@ v_vec=sigmoid(W2*h_vec+b2_vec);
 It recognizes two words spoken by me, "on" and "off".
 
 <video controls style="width:100%">
- <source src="assets/jvoiceH264.mp4" type="video/mp4">
+ <source src="https://raw.githubusercontent.com/jontio/Jvoice/master/assets/jvoiceH264.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -32,7 +28,7 @@ Training is the difficult thing with neural networks. I used Matlab to train it 
 
 So using Matlab or Octave you should be able to do the same thing with your voice.
 
-![image caption: on and off decoding](matlab/result.png)
+![image caption: on and off decoding](https://raw.githubusercontent.com/jontio/Jvoice/master/matlab/result.png)
 
 ## Finally
 
