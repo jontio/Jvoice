@@ -4,7 +4,7 @@ This is my first neural network. I wanted it to be as simple as possible but sti
 
 ![..image of network..](assets/nn.png)
 
-The bold font signifies these matrices. The superscript in brackets is to signify both the **W**s and **b**s are different. Lower case bold fonts are vectors while uppercase bold fonts are matrices. The f is called the sigmoid function and make sure is the outputs are between zero and one.
+The bold font signifies these matrices or vectors. The superscript in brackets is to signify both the **W**s and **b**s are different. Lower case bold fonts are vectors while uppercase bold fonts are matrices. The f is called the sigmoid function and makes sure the outputs are between zero and one.
 
 For this application I used [Armadillo] Which takes care of all the vectors and matrices. That means in this C++ application it is still just two lines...
 
