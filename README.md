@@ -17,10 +17,7 @@ v_vec=sigmoid(W2*h_vec+b2_vec);
 
 It recognizes two words spoken by me, "on" and "off".
 
-<video controls style="width:100%">
- <source src="https://raw.githubusercontent.com/jontio/Jvoice/master/assets/jvoiceH264.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+Click this [Video] to see it in action.
 
 ## Training
 
@@ -38,3 +35,4 @@ Jonti
 
 [Feedforward neural network]: https://en.wikipedia.org/wiki/Feedforward_neural_network
 [Armadillo]: http://arma.sourceforge.net/
+[video]: https://www.youtube.com/embed/w0d0RuX9Eyk
